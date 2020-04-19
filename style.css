@@ -2,12 +2,12 @@ body {
     height: 100vh;
 }
 
-.pagecontainer {
+.page-container {
     display: flex;
     height: 100%;
 }
 
-.maincontent {
+.main-content {
     height: 100%;
     width: 100%;
     overflow: auto;
