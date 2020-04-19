@@ -74,7 +74,7 @@ let python = [
     }
 ];
 
-let languagecards = [["C++", cpp], ["Python", python]];
+let languagecards = [["C++", cpp, "badge1"], ["Python", python, "badge2"]];
 
 const replaceHTMLlanguagecards = () => {
     var source = document.getElementById("languagecardtemplate").innerHTML;

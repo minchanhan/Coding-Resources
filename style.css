@@ -10,7 +10,6 @@ body {
 .main-content {
     height: 100%;
     width: 100%;
-    overflow: auto;
 }
 
 .heroimage{
@@ -36,6 +35,31 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+.badgetext {
+    color: white;
+}
+
+.badge1 {
+    background-color: red;
+}
+
+.badge2 {
+    background-color: orangered;
+}
+
+.badge3 {
+    background-color: orange;
+}
+
+
+.badge4 {
+    background-color: gold;
+}
+
+.badge5 {
+    background-color: yellow;
 }
 
 #title {
