@@ -64,12 +64,12 @@
 
     <script id="languagecardtemplate" type="text/x-handlebars-template">
         {{#each languages}}
-        <div class="card mb-4">
-        <h1 class="card-header">{{this.[0]}}</h1>
+        <div class="card border-dark mb-4">
+        <h1 class="card-header border-dark">{{this.[0]}}</h1>
             <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 pb-3">
             {{#each this.[1]}}
                 <div class="col mb-4">
-                    <div class="card m-3 h-100">
+                    <div class="card border-secondary m-3 h-100">
                         <img src={{image_link}} class="card-img-top w-50" alt="details" />
                         <span class="badge badgetext {{badgetype}}">{{language}}</span>
                         <div class="card-body">
