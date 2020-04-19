@@ -63,10 +63,12 @@
     </header>
 
     <script id="iosdevcardtemplate" type="text/x-handlebars-template">
-        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="card mb-4">
+            <h1 class="card-header">iOS</h1>
+        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 pb-3">
             {{#each iosdev}}
-            <div class="col mb-3">
-                <div class="card h-100">
+            <div class="col mb-5">
+                <div class="card m-3 h-100">
                     <img src={{image_link}} class="card-img-top w-50" alt="details" />
                     <span class="badge badgetext badge1">{{language}}</span>
                     <span class="badge">{{tool}}</span>
@@ -84,11 +86,11 @@
             </div>
             {{/each}}
         </div>
+        </div>
     </script>
 
     <div class="page-container">
-        <div class="main-content pl-4 pr-4 pt-4">     
-            <h1>iOS</h1>
+        <div class="main-content p-4">   
             <div id="iosdevcards" />
 
       </div>

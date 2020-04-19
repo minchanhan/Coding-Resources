@@ -64,35 +64,36 @@
 
     <script id="languagecardtemplate" type="text/x-handlebars-template">
         {{#each languages}}
-        <h1>{{this.[0]}}</h1>
-        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="card mb-4">
+        <h1 class="card-header">{{this.[0]}}</h1>
+            <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 pb-3">
             {{#each this.[1]}}
-            <div class="col mb-3">
-                <div class="card h-100">
-                    <img src={{image_link}} class="card-img-top w-50" alt="details" />
-                    <span class="badge badgetext {{badgetype}}">{{language}}</span>
-                    <div class="card-body">
-                        <h5 class="card-title">{{name}}</h5>
-                        <p class="card-text">{{description}}</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">{{rating}}</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="{{link}}" class="card-link">{{link}}</a>
+                <div class="col mb-4">
+                    <div class="card m-3 h-100">
+                        <img src={{image_link}} class="card-img-top w-50" alt="details" />
+                        <span class="badge badgetext {{badgetype}}">{{language}}</span>
+                        <div class="card-body">
+                            <h5 class="card-title">{{name}}</h5>
+                            <p class="card-text">{{description}}</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">{{rating}}</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="{{link}}" class="card-link">{{link}}</a>
+                        </div>
                     </div>
                 </div>
-            </div>
             {{/each}}
+            </div>
         </div>
         {{/each}}
     </script>
 
     <div class="page-container">
-        <div class="main-content pl-4 pr-4 pt-4">
-            
+        <div class="main-content p-4">
 
-            <div id="languagecards"/>
+            <div class="mb-4" id="languagecards" />
 
         </div>
     </div>
