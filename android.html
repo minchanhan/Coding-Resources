@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Coding Resources</title>
+    <title>Android Dev</title>
 </head>
 
 <body>
@@ -61,19 +61,37 @@
         </nav>
     </header>
 
-    <div class="heroimage">
-        <div class="herotext">
-            <h1 id="title">Welcome! Ready to start coding?</h1>
-            <p id="subtitle">Let's get started!</p>
+    <script id="androiddevcardtemplate" type="text/x-handlebars-template">
+        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+            {{#each androiddev}}
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src={{image_link}} class="card-img-top w-50" alt="details" />
+                    <span class="badge">{{language}}</span>
+                    <span class="badge">{{tool}}</span>
+                    <div class="card-body">
+                        <h5 class="card-title">{{name}}</h5>
+                        <p class="card-text">{{description}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">{{rating}}</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">{{link}}</a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
         </div>
-    </div>
+    </script>
 
     <div class="page-container">
-        <div class="main-content">
+        <div class="main-content pl-4 pr-4 pt-4">     
+            <h1>Android</h1>
+            <div id="androiddevcards" />
 
-        </div>
+      </div>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -91,8 +109,8 @@
             $("#nav-reuse").load("navigation.html");
         });
     </script>
-    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="android.js"></script>
 </body>
 
 </html>
