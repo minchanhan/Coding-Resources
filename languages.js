@@ -17,11 +17,31 @@ let cpp = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "3"
+        rating: "4"
     },
     {
         id: 3,
         name: "Web 3",
+        link: "link",
+        language: "C++",
+        description:
+            "Helpful diagrams, great feedback",
+        image_link: "res/preview_pic.png",
+        rating: "3"
+    },
+    {
+        id: 3,
+        name: "Web 4",
+        link: "link",
+        language: "C++",
+        description:
+            "Helpful diagrams, great feedback",
+        image_link: "res/preview_pic.png",
+        rating: "3"
+    },
+    {
+        id: 3,
+        name: "Web 5",
         link: "link",
         language: "C++",
         description:
