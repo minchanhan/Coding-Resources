@@ -8,7 +8,7 @@ let android = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "5"
+        rating: "User Rating To Be Added"
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ let android = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "4"
+        rating: "User Rating To Be Added"
     }
 ];
 

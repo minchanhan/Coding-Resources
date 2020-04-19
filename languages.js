@@ -1,23 +1,23 @@
 let cpp = [
     {
         id: 1,
-        name: "Web 1",
-        link: "link",
+        name: "W3Schools",
+        link: "https://www.w3schools.com/cpp/default.asp",
         language: "C++",
         description:
-            "Helpful diagrams, great feedback",
+            "Interactive Tutorial, Beginner Friendly",
         image_link: "res/preview_pic.png",
-        rating: "5"
+        rating: "User Rating To Be Added"
     },
     {
         id: 2,
-        name: "Web 2",
+        name: "Learn CPP",
         link: "link",
         language: "C++",
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "4"
+        rating: "User Rating To Be Added"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ let cpp = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "3"
+        rating: "User Rating To Be Added"
     },
     {
         id: 3,
@@ -37,7 +37,7 @@ let cpp = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "3"
+        rating: "User Rating To Be Added"
     },
     {
         id: 3,
@@ -47,7 +47,7 @@ let cpp = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "2"
+        rating: "User Rating To Be Added"
     }
 ];
 
@@ -60,7 +60,7 @@ let python = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "5"
+        rating: "User Rating To Be Added"
     },
     {
         id: 2,
@@ -70,7 +70,7 @@ let python = [
         description:
             "Helpful diagrams, great feedback",
         image_link: "res/preview_pic.png",
-        rating: "4"
+        rating: "User Rating To Be Added"
     }
 ];
 
