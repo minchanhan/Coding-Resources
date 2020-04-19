@@ -3,6 +3,7 @@ let cpp = [
         id: 1,
         name: "W3Schools",
         link: "https://www.w3schools.com/cpp/default.asp",
+        badgetype: "badge1",
         language: "C++",
         description:
             "Interactive Tutorial, Beginner Friendly",
@@ -13,6 +14,7 @@ let cpp = [
         id: 2,
         name: "Learn CPP",
         link: "link",
+        badgetype: "badge1",
         language: "C++",
         description:
             "Helpful diagrams, great feedback",
@@ -23,6 +25,7 @@ let cpp = [
         id: 3,
         name: "Web 3",
         link: "link",
+        badgetype: "badge1",
         language: "C++",
         description:
             "Helpful diagrams, great feedback",
@@ -33,6 +36,7 @@ let cpp = [
         id: 3,
         name: "Web 4",
         link: "link",
+        badgetype: "badge1",
         language: "C++",
         description:
             "Helpful diagrams, great feedback",
@@ -43,6 +47,7 @@ let cpp = [
         id: 3,
         name: "Web 5",
         link: "link",
+        badgetype: "badge1",
         language: "C++",
         description:
             "Helpful diagrams, great feedback",
@@ -56,6 +61,7 @@ let python = [
         id: 1,
         name: "Web 1",
         link: "link",
+        badgetype: "badge2",
         language: "Python",
         description:
             "Helpful diagrams, great feedback",
@@ -66,6 +72,7 @@ let python = [
         id: 2,
         name: "Web 2",
         link: "link",
+        badgetype: "badge2",
         language: "Python",
         description:
             "Helpful diagrams, great feedback",
@@ -74,7 +81,7 @@ let python = [
     }
 ];
 
-let languagecards = [["C++", cpp, "badge1"], ["Python", python, "badge2"]];
+let languagecards = [["C++", cpp], ["Python", python]];
 
 const replaceHTMLlanguagecards = () => {
     var source = document.getElementById("languagecardtemplate").innerHTML;
