@@ -64,23 +64,33 @@
 
     <script id="languagecardtemplate" type="text/x-handlebars-template">
         {{#each languages}}
-        <div class="card border-dark mb-4">
+        <div class="card border-dark mb-5 mt-2">
         <h1 class="card-header border-dark">{{this.[0]}}</h1>
-            <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 pb-3">
+            <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-4">
             {{#each this.[1]}}
                 <div class="col mb-4">
-                    <div class="card border-secondary m-3 h-100">
-                        <a href="{{link}}"><img src={{image_link}} class="card-img-top w-50" alt="details"></img></a>
-                        <span class="badge badgetext {{badgetype}}">{{language}}</span>
+                    <div class="card border-secondary h-100">
+                        <div class="text-center m-1">
+                            <a href="{{link}}"><img src={{image_link}} class="card-img-top" alt="details"></img></a>
+                        </div>
                         <div class="card-body">
+                            <div class="row row-cols-3 mb-3">
+                                <span class="badge badgetext {{badgetype}}">{{language}}</span>
+                                <span class="badge badgetext {{badgetype}}">{{resourcetype}}</span>
+                                <span class="badge badgetext {{badgetype}}">{{time}}</span>
+                            </div>
                             <h5 class="card-title">{{name}}</h5>
                             <p class="card-text">{{description}}</p>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">{{rating}}</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="{{link}}" class="card-link">{{link}}</a>
+                        <div class="card-footer">
+                            <div class="row no-gutters">
+                                <div class="col md-2">
+                                    <a href="{{link}}" class="btn badgetext {{badgetype}} active" role="button" aria-pressed="true">Go!</a>
+                                </div>
+                                <div class="col md-4">
+                                    <p class="card-text text-right">{{rating}}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ body {
 
 .heroimage{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("res/preview_pic.png");
+        rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("res/preview3.png");
     height: 70%;
     width: 100%;
     background-position: center;
@@ -29,12 +29,29 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: blue;
-    text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    color: white;
+}
+
+.introduction {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 3%;
+  margin: 1%;
+  list-style: none;
+}
+
+.frontpageintroimages {
+    width: 70%;
+    height: 70%;
+}
+
+.bigherotext {
+    font-size: 300%;
+}
+
+.smallherotext {
+    font-size: 150%;
 }
 
 .badgetext {
