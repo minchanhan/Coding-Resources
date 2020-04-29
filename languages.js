@@ -60,7 +60,7 @@ let cpp = [
 let python = [
     {
         id: 1,
-        name: "Python",
+        name: "W3Schools",
         link: "https://www.w3schools.com/python/default.asp",
         badgetype: "badge2",
         language: "Python",
@@ -89,7 +89,26 @@ let python = [
     }
 ];
 
-let languagecards = [["C++", cpp], ["Python", python]];
+let swift = [
+    {
+        id: 1,
+        name: "W3Schools",
+        link: "https://www.w3schools.in/swift-tutorial/basic-syntax/",
+        badgetype: "badge3",
+        language: "Swift",
+        resourcetype: "Tutorial",
+        time: "Short",
+        description:
+            "Teaches basic syntax of Swift and helps set up your Swift environment to prepare you for coding in XCode \
+            (developing iOS applications)!",
+        image_link: "res/ios/w3schoolsswift.jpg",
+        rating: "User Rating: "
+    }
+]
+
+
+
+let languagecards = [["C++", cpp], ["Python", python], ["Swift", swift]];
 
 const replaceHTMLlanguagecards = () => {
     var source = document.getElementById("languagecardtemplate").innerHTML;

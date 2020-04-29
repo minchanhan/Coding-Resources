@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>iOS Dev</title>
+    <title>Android Dev</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Picture Here</a>
-
+        
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -36,10 +36,10 @@
                             <span class="sr-only">(current)</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="ios.html"><b>iOS</b></a>
+                            <a class="dropdown-item" href="ios.html">iOS</a>
                             <a class="dropdown-item" href="android.html">Android</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="crossplatform.html">Cross Platform</a>
+                            <a class="dropdown-item" href="crossplatform.html"><b>Cross Platform</b></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -62,8 +62,8 @@
         </nav>
     </header>
 
-    <script id="iosdevcardtemplate" type="text/x-handlebars-template">
-        {{#each iosdev}}
+    <script id="crossplatformdevcardtemplate" type="text/x-handlebars-template">
+        {{#each crossplatformdev}}
         <div class="card border-dark mb-5 mt-2">
         <h1 class="card-header border-dark">{{this.[0]}}</h1>
             <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-4">
@@ -101,8 +101,8 @@
     </script>
 
     <div class="page-container">
-        <div class="main-content p-4"> 
-            <div class="mb-4" id="iosdevcards" />
+        <div class="main-content p-4">    
+            <div class="mb-4" id="crossplatformdevcards" />
 
       </div>
     </div>
@@ -123,7 +123,7 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="ios.js"></script>
+    <script src="crossplatform.js"></script>
 </body>
 
 </html>

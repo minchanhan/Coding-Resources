@@ -50,14 +50,14 @@ let flutter = [
 ];
 
 
-let androidcards = [["Android Studio", androidstudio], ["Flutter", flutter]];
+let crossplatformcards = [["Android Studio", androidstudio], ["Flutter", flutter]];
 
-const replaceHTMLandroiddevcards = () => {
-    var source = document.getElementById("androiddevcardtemplate").innerHTML;
+const replaceHTMLcrossplatformdevcards = () => {
+    var source = document.getElementById("crossplatformdevcardtemplate").innerHTML;
     var template = Handlebars.compile(source);
-    var context = { androiddev: androidcards };
+    var context = { crossplatformdev: crossplatformcards };
     var html = template(context);
-    document.getElementById("androiddevcards").innerHTML = html;
+    document.getElementById("crossplatformdevcards").innerHTML = html;
 };
 
-replaceHTMLandroiddevcards();
+replaceHTMLcrossplatformdevcards();
