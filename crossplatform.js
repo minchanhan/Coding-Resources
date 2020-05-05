@@ -1,56 +1,37 @@
-let androidstudio = [
+let xamarinforms = [
     {
         id: 1,
-        name: "Coding in Flow",
-        link: "https://codinginflow.com/",
+        name: "Programming With Mosh",
+        link: "https://www.youtube.com/watch?v=93ZU6j59wL4",
         badgetype: "badge1",
-        language: "Java",
+        language: "C#",
         resourcetype: "Tutorial",
-        time: "Long",
+        time: "Short",
         description:
-            "This is a unique tutorial/resource where you aren't being walked through from star to finish how \
-            to use Android Studio, but whatever you want to do in Android Studio, you can look up here and learn \
-            how to use its contents at your own pace.",
-        image_link: "res/android/codinginflow.jpg",
+            "This is a one-hour YouTube video that describes a ton of content that Xamarin Forms offers. \
+            There may be content that is outdated right now, but the main contents are still relevant and \
+            the deprecated features are easy to fix with a bit of googling!",
+        image_link: "res/crossplatform/programmingwithmosh.jpg",
         rating: "User Rating: *****"
     },
     {
         id: 2,
-        name: "Bill's Tutorials",
-        link: "https://www.youtube.com/channel/UCTfCl-a8_6aKT_Mdd4HkaUw",
+        name: "Microsoft Docs",
+        link: "https://dotnet.microsoft.com/learn/xamarin",
         badgetype: "badge1",
         language: "Java",
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "This tutorial is more of a classic walkthrough, from setting up your first simple \
-            application, to debugging and using databases. This is a link to his channel where he has his 4 half-hour \
-            long videos uploaded.",
-        image_link: "res/android/billbutterfield.jpg",
-        rating: "User Rating: *****"
-    },
-    {
-        id: 3,
-        name: "Android Developers",
-        link: "https://developer.android.com/training/basics/firstapp",
-        badgetype: "badge1",
-        language: "Java/Kotlin",
-        resourcetype: "Tutorial",
-        time: "Medium",
-        description:
-            "Android's official website offers a pretty nice tutorial on building your first application. There \
-            is a bit more reading involved but it offers plenty of information to get you started.",
-        image_link: "res/android/androiddevelopers.png",
+            "The official Microsoft documents offer a variety of resources of various levels for Xamarin Forms. \
+            On this page, there are tutorials for building your first app and deep dives into concepts like Data Binding and more! \
+            For beginners, I'd recommend watching the Xamarin 101 Video Series under \"All learning materials\".",
+        image_link: "res/crossplatform/microsoft.png",
         rating: "User Rating: *****"
     }
 ];
 
-let flutter = [
-    
-];
-
-
-let crossplatformcards = [["Android Studio", androidstudio], ["Flutter", flutter]];
+let crossplatformcards = [["Xamarin Forms", xamarinforms]];
 
 const replaceHTMLcrossplatformdevcards = () => {
     var source = document.getElementById("crossplatformdevcardtemplate").innerHTML;
