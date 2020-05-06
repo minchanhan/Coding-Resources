@@ -67,7 +67,7 @@ let python = [
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "Website favourite W3Scools provides another interactive tutorial, that welcomes a variety of levels of programmers. \
+            "Website favourite W3Schools provides another interactive tutorial, that welcomes a variety of levels of programmers. \
             Beginners are welcome to use its interactive Python tutorial, while more advances programmers can enjoy the wide variety of \
             extra resources, from advanced methods to using Python with MySQL, MongoDB, and NumPy.",
         image_link: "res/languages/python/w3schools.png",
