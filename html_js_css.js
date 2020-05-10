@@ -1,92 +1,51 @@
 let html = [
     {
         id: 1,
-        name: "Apple Developer",
-        link: "https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/",
+        name: "W3Schools",
+        link: "https://www.w3schools.com/html/",
         badgetype: "badge1",
-        language: "Swift",
+        language: "HTML",
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "Apple's official documentation offers a nice tutorial to build a simple app to \
-            teach the basics of using XCode.",
-        image_link: "res/ios/appledeveloper.jpeg"
-    },
-    {
-        id: 2,
-        name: "Code With Chris",
-        link: "https://codewithchris.com/xcode-tutorial/",
-        badgetype: "badge1",
-        language: "Swift",
-        resourcetype: "Information",
-        time: "Long",
-        description:
-            "If you're the type of person who wants to learn by experimenting rather than following a tutorial, \
-            this website is perfect for you. Rather than building an app together, the author provides all the information \
-            you need to get started and playing around with XCode on your own!",
-        image_link: "res/ios/codewithchris.png"
+            "W3Schools offers awesome resources and tutorials for learning the required programming skills for developing \
+            websites! This tutorial offers a Try it Yourself box with each example so you can play around with HTML pages \
+            without having to download anything!",
+        image_link: "res/languages/cpp/w3schools.png"
     }
 ];
 
 let css = [
     {
         id: 1,
-        name: "Microsoft Docs",
-        link: "https://docs.microsoft.com/en-us/xamarin/ios/get-started/",
+        name: "W3Schools",
+        link: "https://www.w3schools.com/css/",
         badgetype: "badge2",
-        language: "C#",
+        language: "CSS",
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "Microsoft's official documents have a nice Xamarin iOS tutorial to get you going. It splits the tutorial \
-            into a \"Quickstart\" section for quickly seein an app built, and a \"Deep Dive\" section that explains \
-            everything you just saw! It includes a set-up guide as well, which can be confusing because there are many \
-            installation steps to use Xamarin iOS.",
-        image_link: "res/ios/microsoft.png"
-    },
-    {
-        id: 2,
-        name: "Ray Wenderlich",
-        link: "https://www.raywenderlich.com/1044-building-ios-apps-with-xamarin-and-visual-studio",
-        badgetype: "badge2",
-        language: "C#",
-        resourcetype: "Tutorial",
-        time: "Medium",
-        description:
-            "This is an awesome fun tutorial that walks you through the set-up steps in detail and \
-            introduces you to the basics of developing with Xamarin iOS!",
-        image_link: "res/ios/raywenderlich.png"
+            "W3Schools offers awesome resources and tutorials for learning the required programming skills for developing \
+            websites! This tutorial offers a Try it Yourself box with each example so you can play around with styling pages \
+            without having to download anything!",
+        image_link: "res/languages/cpp/w3schools.png"
     }
 ];
 
 let js = [
     {
         id: 1,
-        name: "Microsoft Docs",
-        link: "https://docs.microsoft.com/en-us/xamarin/ios/get-started/",
-        badgetype: "badge2",
-        language: "C#",
+        name: "W3Schools",
+        link: "https://www.w3schools.com/js/",
+        badgetype: "badge3",
+        language: "JavaScript",
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "Microsoft's official documents have a nice Xamarin iOS tutorial to get you going. It splits the tutorial \
-            into a \"Quickstart\" section for quickly seein an app built, and a \"Deep Dive\" section that explains \
-            everything you just saw! It includes a set-up guide as well, which can be confusing because there are many \
-            installation steps to use Xamarin iOS.",
-        image_link: "res/ios/microsoft.png"
-    },
-    {
-        id: 2,
-        name: "Ray Wenderlich",
-        link: "https://www.raywenderlich.com/1044-building-ios-apps-with-xamarin-and-visual-studio",
-        badgetype: "badge2",
-        language: "C#",
-        resourcetype: "Tutorial",
-        time: "Medium",
-        description:
-            "This is an awesome fun tutorial that walks you through the set-up steps in detail and \
-            introduces you to the basics of developing with Xamarin iOS!",
-        image_link: "res/ios/raywenderlich.png"
+        "This tutorial teaches you how to write functions with JavaScript in a convenient way! \
+        The website features a Try it Yourself box with each function so you can get immediate feedback on your functions \
+        without having to download anything! It also offers fill in the blank exercises for quick memorization and hands on experience.",
+        image_link: "res/languages/cpp/w3schools.png"
     }
 ];
 

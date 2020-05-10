@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Android Dev</title>
+    <title>Libaries</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <div id="nav-reuse"></div>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -28,27 +28,27 @@
                     <li class="nav-item">
                         <a class="nav-link" href="languages.html">Languages</a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Mobile Development
-                            <span class="sr-only">(current)</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="ios.html">iOS</a>
                             <a class="dropdown-item" href="android.html">Android</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="crossplatform.html"><b>Cross Platform</b></a>
+                            <a class="dropdown-item" href="crossplatform.html">Cross Platform</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Web Development
+                            Web Dev
+                            <span class="sr-only">(current)</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="html_js_css.html">HTML, JavaScript, CSS</a>
-                            <a class="dropdown-item" href="libraries.html">Libraries</a>
+                            <a class="dropdown-item" href="html_js_css.html">HTML, CSS, JavaScript</a>
+                            <a class="dropdown-item" href="libraries.html"><b>Libraries</b></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">More Coming Soon!</a>
                         </div>
@@ -61,8 +61,8 @@
         </nav>
     </header>
 
-    <script id="crossplatformdevcardtemplate" type="text/x-handlebars-template">
-        {{#each crossplatformdev}}
+    <script id="libsdevcardtemplate" type="text/x-handlebars-template">
+        {{#each libsdev}}
         <div class="card border-dark mb-5 mt-2">
         <h1 class="card-header border-dark">{{this.[0]}}</h1>
             <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-4">
@@ -101,7 +101,7 @@
 
     <div class="page-container">
         <div class="main-content p-4">    
-            <div class="mb-4" id="crossplatformdevcards" />
+            <div class="mb-4" id="libsdevcards" />
 
       </div>
     </div>
@@ -122,7 +122,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="navigation.js"></script>
-    <script src="crossplatform.js"></script>
+    <script src="libraries.js"></script>
 </body>
 
 </html>
