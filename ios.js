@@ -10,8 +10,7 @@ let xcode = [
         description:
             "Apple's official documentation offers a nice tutorial to build a simple app to \
             teach the basics of using XCode.",
-        image_link: "res/ios/appledeveloper.jpeg",
-        rating: "User Rating: *****"
+        image_link: "res/ios/appledeveloper.jpeg"
     },
     {
         id: 2,
@@ -25,8 +24,7 @@ let xcode = [
             "If you're the type of person who wants to learn by experimenting rather than following a tutorial, \
             this website is perfect for you. Rather than building an app together, the author provides all the information \
             you need to get started and playing around with XCode on your own!",
-        image_link: "res/ios/codewithchris.png",
-        rating: "User Rating: *****"
+        image_link: "res/ios/codewithchris.png"
     }
 ];
 
@@ -44,8 +42,7 @@ let xamarinios = [
             into a \"Quickstart\" section for quickly seein an app built, and a \"Deep Dive\" section that explains \
             everything you just saw! It includes a set-up guide as well, which can be confusing because there are many \
             installation steps to use Xamarin iOS.",
-        image_link: "res/ios/microsoft.png",
-        rating: "User Rating: *****"
+        image_link: "res/ios/microsoft.png"
     },
     {
         id: 2,
@@ -58,8 +55,7 @@ let xamarinios = [
         description:
             "This is an awesome fun tutorial that walks you through the set-up steps in detail and \
             introduces you to the basics of developing with Xamarin iOS!",
-        image_link: "res/ios/raywenderlich.png",
-        rating: "User Rating: *****"
+        image_link: "res/ios/raywenderlich.png"
     }
 ];
 

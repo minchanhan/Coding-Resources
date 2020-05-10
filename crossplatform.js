@@ -11,8 +11,7 @@ let xamarinforms = [
             "This is a one-hour YouTube video that describes a ton of content that Xamarin Forms offers. \
             There may be content that is outdated right now, but the main contents are still relevant and \
             the deprecated features are easy to fix with a bit of googling!",
-        image_link: "res/crossplatform/programmingwithmosh.jpg",
-        rating: "User Rating: *****"
+        image_link: "res/crossplatform/programmingwithmosh.jpg"
     },
     {
         id: 2,
@@ -26,8 +25,7 @@ let xamarinforms = [
             "The official Microsoft documents offer a variety of resources of various levels for Xamarin Forms. \
             On this page, there are tutorials for building your first app and deep dives into concepts like Data Binding and more! \
             For beginners, I'd recommend watching the Xamarin 101 Video Series under \"All learning materials\".",
-        image_link: "res/crossplatform/microsoft.png",
-        rating: "User Rating: *****"
+        image_link: "res/crossplatform/microsoft.png"
     }
 ];
 

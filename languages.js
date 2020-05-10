@@ -10,8 +10,7 @@ let cpp = [
         description:
             "An amazing interactive tutorial, that is very beginnner friendly. It not only teaches you the \
             basics of C++, but it also equips you with beginner programmer knowledge.",
-        image_link: "res/languages/cpp/w3schools.png",
-        rating: "User Rating: *****"
+        image_link: "res/languages/cpp/w3schools.png"
     },
     {
         id: 2,
@@ -24,8 +23,7 @@ let cpp = [
         description:
             "A longer, more in-depth list of lessons that cover most parts about C++. \
             This includes simple lessons on beginner syntax to advanced lessons on Object Oriented Programming",
-        image_link: "res/languages/cpp/learncpp_com.png",
-        rating: "User Rating: *****"
+        image_link: "res/languages/cpp/learncpp_com.png"
     },
     {
         id: 3,
@@ -38,8 +36,7 @@ let cpp = [
         description:
             "Covers the main parts of C++ in great detail, a slow pace which is nice for beginners. \
             This YouTuber also provides some bonus information within the playlist about where and what tools to use C++.",
-        image_link: "res/languages/cpp/thecherno.png",
-        rating: "User Rating: *****"
+        image_link: "res/languages/cpp/thecherno.png"
     },
     {
         id: 4,
@@ -52,8 +49,7 @@ let cpp = [
         description:
             "This is a great tutorial for if you want to just get going with C++! It keeps descriptions short\
             but concise, leaving you with a solid foundation to explore more C++ concepts and experiment!",
-        image_link: "res/languages/cpp/beginnersbook.png",
-        rating: "User Rating: ***** "
+        image_link: "res/languages/cpp/beginnersbook.png"
     }
 ];
 
@@ -70,8 +66,7 @@ let python = [
             "Website favourite W3Schools provides another interactive tutorial, that welcomes a variety of levels of programmers. \
             Beginners are welcome to use its interactive Python tutorial, while more advances programmers can enjoy the wide variety of \
             extra resources, from advanced methods to using Python with MySQL, MongoDB, and NumPy.",
-        image_link: "res/languages/python/w3schools.png",
-        rating: "User Rating: "
+        image_link: "res/languages/python/w3schools.png"
     },
     {
         id: 2,
@@ -84,8 +79,7 @@ let python = [
         description:
             "My school offers a great Python course that not only focues on Python specific concepts, but also \
             treats you like a true beginner coding for the FIRST time. This is a great FIRST look into programming.",
-        image_link: "res/languages/python/uwaterloo.png",
-        rating: "User Rating: "
+        image_link: "res/languages/python/uwaterloo.png"
     }
 ];
 
@@ -101,8 +95,7 @@ let swift = [
         description:
             "Teaches basic syntax of Swift and helps set up your Swift environment to prepare you for coding in XCode \
             (developing iOS applications)!",
-        image_link: "res/ios/w3schoolsswift.jpg",
-        rating: "User Rating: "
+        image_link: "res/ios/w3schoolsswift.jpg"
     }
 ]
 
