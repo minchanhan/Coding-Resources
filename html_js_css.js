@@ -25,8 +25,7 @@ let css = [
         resourcetype: "Tutorial",
         time: "Medium",
         description:
-            "W3Schools offers awesome resources and tutorials for learning the required programming skills for developing \
-            websites! This tutorial offers a Try it Yourself box with each example so you can play around with styling pages \
+            "This tutorial offers a Try it Yourself box with each example so you can play around with styling pages \
             without having to download anything!",
         image_link: "res/languages/cpp/w3schools.png"
     }
