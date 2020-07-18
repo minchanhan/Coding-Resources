@@ -47,7 +47,9 @@ body {
 }
 
 .bigherotext {
-    font-size: 300%;
+    white-space: nowrap;
+    font-size: 450%;
+    font-weight: bold;
 }
 
 .smallherotext {
