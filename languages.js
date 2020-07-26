@@ -83,12 +83,29 @@ let python = [
     }
 ];
 
+let java = [
+    {
+        id: 1,
+        name: "Learn Java Online",
+        link: "https://www.learnjavaonline.org/",
+        badgetype: "badge3",
+        language: "Java",
+        resourcetype: "Tutorial",
+        time: "Medium",
+        description:
+            "This is a really clean and organized run through of the basics of Java. It starts from Hello World, moves onto functions and \
+            objects, then gets into deeper topics such as inheritance. \
+            At the end of each topic, there are fun little exercises for you to get used to actually using Java yourself!",
+        image_link: "res/languages/java/learnjava.png"
+    }
+];
+
 let swift = [
     {
         id: 1,
         name: "W3Schools",
         link: "https://www.w3schools.in/swift-tutorial/basic-syntax/",
-        badgetype: "badge3",
+        badgetype: "badge4",
         language: "Swift",
         resourcetype: "Tutorial",
         time: "Short",
@@ -101,7 +118,7 @@ let swift = [
 
 
 
-let languagecards = [["C++", cpp], ["Python", python], ["Swift", swift]];
+let languagecards = [["C++", cpp], ["Python", python], ["Java", java], ["Swift", swift]];
 
 const replaceHTMLlanguagecards = () => {
     var source = document.getElementById("languagecardtemplate").innerHTML;
